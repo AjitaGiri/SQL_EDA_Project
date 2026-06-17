@@ -2,6 +2,7 @@
 
 /*Segment products into cost ranges and 
 count how many products fall into each segment*/
+
 WITH cost_ranges AS (
 SELECT
 product_key,
@@ -55,5 +56,4 @@ FROM (
 		) AS SEGMENTED_CUSTOMERS
 GROUP BY SEGMENT
 ORDER BY TOTAL_CUSTOMERS DESC;
-
 
