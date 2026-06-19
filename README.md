@@ -27,6 +27,7 @@ Tables Used
 - Identified primary and foreign key relationships.
 
 2. Dimension Exploration
+
 Analyzed business dimensions including:
 
 - Customers
@@ -35,11 +36,13 @@ Analyzed business dimensions including:
 - Subcategories
 
 3. Date Exploration
+
 Performed time-based analysis by:
 - Identifying first and last transaction dates.
 - Measuring business activity duration.
 
 4. Measures Exploration
+
 Calculated key business metrics:
 
 - Total Sales
@@ -49,6 +52,7 @@ Calculated key business metrics:
 - Customer Count
 
 5. Magnitude Analysis
+
 Performed magnitude analysis to understand the scale and contribution of different business entities.
 
 Key analyses included:
@@ -62,6 +66,7 @@ Key analyses included:
 - Distribution of sold quantities across countries.
 
 6. Ranking Analysis
+
 Applied ranking techniques to identify top and bottom performers across products and customers.
 
 Key analyses included:
@@ -74,6 +79,7 @@ Key analyses included:
 - Customer ranking based on revenue contribution.
 
 7. Change Over Time Analysis
+
 Analyzed business performance trends over time to identify growth patterns, seasonality, and changes in key business metrics.
 
 Key analyses included:
@@ -82,9 +88,11 @@ Key analyses included:
 - Monthly sales trend analysis.
 
 8. Data Segmentation
+
 Applied segmentation techniques to group products and customers into meaningful business categories.
 
 9. Customer Report
+
 Built a customer-level analytical report containing:
 
 - Customer Information
@@ -95,6 +103,7 @@ Built a customer-level analytical report containing:
 - Average Order Value
 
 10. Product Report
+
 Built a product-level analytical report containing:
 
 - Product Performance Metrics
@@ -104,6 +113,7 @@ Built a product-level analytical report containing:
 - Sales Volume Metrics
 
 ## SQL Concepts & Techniques Used
+
 - SELECT Statements
 - Filtering (WHERE)
 - Aggregations (SUM, AVG, COUNT)
@@ -117,17 +127,23 @@ Built a product-level analytical report containing:
 - Date Functions
 
 ## Key Insights
+
 - The **Bikes category** was the highest revenue-generating category, dominating overall sales performance.
 - The majority of customers were **New customers (14,631)**, indicating strong acquisition but relatively lower customer maturity.
 -  Although **VIP customers were the smallest group (1,655)**, they contributed the highest value in terms of spending.
 -  Sales were heavily concentrated in the **United States**, followed by Australia and Canada, showing strong geographic imbalance in demand.
 
 ## Project Highlights
+
 ### Customer Segmentation
 ![Customer Segmentation](./screenshots/customer_segment.png)
 
 ### Top Products by Revenue
 ![Top Products](./screenshots/product_ranking.png)
+![Top Products](./screenshots/Product_Revenue.png)
+
+### Sales By Country
+![Sales By Country](./screenshots/Revenue_Country.png)
 
 ### Top Customers
 ![Top Customers](./screenshots/top_10_customers_by_revenue.png)
@@ -136,4 +152,5 @@ Built a product-level analytical report containing:
 ![Customer Report](./screenshots/customer_report.png)
 
 ## Conclusion
+
 This project demonstrates end-to-end SQL analytics capabilities, from exploratory analysis to business reporting. It showcases practical SQL skills used by data analysts to extract insights, evaluate business performance, and support data-driven decision-making.
