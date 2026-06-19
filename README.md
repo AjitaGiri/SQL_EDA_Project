@@ -123,17 +123,17 @@ Built a product-level analytical report containing:
 -  Sales were heavily concentrated in the **United States**, followed by Australia and Canada, showing strong geographic imbalance in demand.
 
 ## Project Highlights
-###Customer Segmentation
-![Customer Segmentation](screenshots/customer_segment.png)
+### Customer Segmentation
+![Customer Segmentation](./screenshots/customer_segment.png)
 
 ### Top Products by Revenue
-![Top Products](screenshots/product_ranking.png)
+![Top Products](./screenshots/product_ranking.png)
 
 ### Top Customers
-![Top Customers](screenshots/top_10_customers_by_revenue.png)
+![Top Customers](./screenshots/top_10_customers_by_revenue.png)
 
 ### Customer Report
-![Customer Report](screenshots/customer_report.png)
+![Customer Report](./screenshots/customer_report.png)
 
 ## Conclusion
 This project demonstrates end-to-end SQL analytics capabilities, from exploratory analysis to business reporting. It showcases practical SQL skills used by data analysts to extract insights, evaluate business performance, and support data-driven decision-making.
